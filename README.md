@@ -1,16 +1,46 @@
-# appmobile
+# DoeVest - Sistema de Doação de Roupas
 
-projeto de doação de roupas
+## Sobre o Projeto
 
-## Getting Started
+O DoeVest é um aplicativo mobile desenvolvido em Flutter com o objetivo de auxiliar no cadastro e gerenciamento de roupas destinadas à doação.
 
-This project is a starting point for a Flutter application.
+O sistema permite que usuários realizem login, cadastrem peças de roupa e visualizem os itens cadastrados de forma simples e organizada.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Autenticação de usuários
+* Cadastro de roupas
+* Listagem de roupas cadastradas
+* Remoção de roupas da lista
+* Interface intuitiva para gerenciamento das doações
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias Utilizadas
+
+* Flutter
+* Dart
+* Firebase Authentication
+* SQLite
+* Android Studio
+
+## Estrutura do Projeto
+
+```text
+lib/
+├── database/
+├── models/
+├── screens/
+├── services/
+└── main.dart
+```
+
+## Objetivo
+
+O projeto foi desenvolvido como atividade prática do curso de Análise e Desenvolvimento de Sistemas, aplicando conceitos de desenvolvimento mobile, banco de dados e autenticação de usuários.
+
+## Desenvolvedor
+
+Kaiky Kendi
+
+## Repositório
+
+https://github.com/kaikykendi/doevest-app
