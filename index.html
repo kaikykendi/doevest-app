@@ -1,40 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>DoeVest</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DoeVest</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#2e7d32;
+}
+
+.btn{
+    display:inline-block;
+    background:#2e7d32;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
+</style>
 </head>
+
 <body>
-    <h1>DoeVest - Sistema de Doação de Roupas</h1>
 
-    <p>
-        Aplicativo desenvolvido em Flutter para auxiliar no cadastro e gerenciamento
-        de roupas destinadas à doação.
-    </p>
+<header>
+<h1>DoeVest</h1>
+<p>Sistema de Doação de Roupas</p>
+</header>
 
-    <h2>Funcionalidades</h2>
-    <ul>
-        <li>Login de usuários</li>
-        <li>Cadastro de roupas</li>
-        <li>Listagem de roupas cadastradas</li>
-        <li>Remoção de roupas</li>
-    </ul>
+<div class="container">
 
-    <h2>Tecnologias Utilizadas</h2>
-    <ul>
-        <li>Flutter</li>
-        <li>Dart</li>
-        <li>Firebase</li>
-        <li>SQLite</li>
-    </ul>
+<div class="card">
+<h2>Sobre o Projeto</h2>
+<p>
+Aplicativo desenvolvido em Flutter para auxiliar no cadastro
+e gerenciamento de roupas destinadas à doação.
+</p>
+</div>
 
-    <h2>Repositório</h2>
-    <p>
-        <a href="https://github.com/kaikykendi/doevest-app">
-            Acessar código-fonte
-        </a>
-    </p>
+<div class="card">
+<h2>Funcionalidades</h2>
+<ul>
+<li>Login de usuários</li>
+<li>Cadastro de roupas</li>
+<li>Listagem de roupas cadastradas</li>
+<li>Remoção de roupas</li>
+</ul>
+</div>
 
-    <p>Desenvolvido por Kaiky Kendi.</p>
+<div class="card">
+<h2>Tecnologias Utilizadas</h2>
+<ul>
+<li>Flutter</li>
+<li>Dart</li>
+<li>Firebase Authentication</li>
+<li>SQLite</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Código-Fonte</h2>
+<a class="btn" href="https://github.com/kaikykendi/doevest-app">
+Acessar Repositório
+</a>
+</div>
+
+</div>
+
+<footer>
+Desenvolvido por Kaiky Kendi
+</footer>
+
 </body>
 </html>
